@@ -3,7 +3,7 @@ version: "3"
   grafana:
     image: grafana/grafana:5.1.0
     environment:
-      - GF_SERVER_ROOT_URL=http://172.0.0.1
+      - GF_SERVER_ROOT_URL=http://localhost
       - GF_SECURITY_ADMIN_PASSWORD=123456
     ports:
       - 3000:3000
